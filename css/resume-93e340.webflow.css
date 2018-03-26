@@ -427,6 +427,11 @@ a:focus {
   background-image: linear-gradient(128deg, #01547e, #136d7e 35%, #3aa17e);
 }
 
+.button.light {
+  background-color: #fff;
+  color: #333;
+}
+
 .subject-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
