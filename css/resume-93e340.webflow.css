@@ -22,11 +22,25 @@ h3 {
 }
 
 a {
-  text-decoration: underline;
+  color: #136d7e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #21a3bb;
 }
 
 a:focus {
   color: #3aa17e;
+}
+
+blockquote {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-left: 5px solid #e2e2e2;
+  font-size: 14px;
+  line-height: 22px;
+  font-style: italic;
 }
 
 .section {
@@ -167,6 +181,10 @@ a:focus {
 
 .space-devider {
   height: 40px;
+}
+
+.space-devider.small {
+  height: 20px;
 }
 
 .title-wrapper {
@@ -860,6 +878,27 @@ a:focus {
   font-weight: 500;
 }
 
+.intro-paragraph {
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+.experience-wrapper-5 {
+  position: relative;
+  margin-bottom: 22px;
+  padding: 16px;
+  border-bottom: 1px none #000;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 87%, .5), hsla(0, 0%, 87%, .5));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 87%, .5), hsla(0, 0%, 87%, .5));
+  cursor: pointer;
+}
+
+.expperience-text-5 {
+  margin-bottom: 40px;
+  padding: 20px 16px;
+}
+
 @media (max-width: 991px) {
   .content-block {
     padding-right: 28px;
@@ -1047,6 +1086,10 @@ a:focus {
   }
   .institution.lower {
     margin-top: 50px;
+  }
+  .expperience-text-5 {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
