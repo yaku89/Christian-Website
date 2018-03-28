@@ -874,7 +874,8 @@ blockquote {
   font-weight: 400;
 }
 
-.text-block-6 {
+.profile-text {
+  line-height: 16px;
   font-weight: 500;
 }
 
@@ -897,6 +898,10 @@ blockquote {
 .expperience-text-5 {
   margin-bottom: 40px;
   padding: 20px 16px;
+}
+
+.profile-text-wrapper {
+  margin-bottom: 12px;
 }
 
 @media (max-width: 991px) {
@@ -1041,6 +1046,9 @@ blockquote {
   }
   .date-wrapper {
     left: 8px;
+  }
+  .profile-cta-wrapper {
+    margin-bottom: 40px;
   }
   .subject-wrapper {
     -webkit-box-orient: vertical;
