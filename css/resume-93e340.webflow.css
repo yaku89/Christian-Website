@@ -21,6 +21,11 @@ h3 {
   font-weight: 700;
 }
 
+p {
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+
 a {
   color: #136d7e;
   text-decoration: none;
@@ -32,6 +37,10 @@ a:hover {
 
 a:focus {
   color: #3aa17e;
+}
+
+li {
+  line-height: 24px;
 }
 
 blockquote {
@@ -1030,6 +1039,12 @@ blockquote {
 }
 
 @media (max-width: 479px) {
+  p {
+    font-size: 16px;
+  }
+  li {
+    font-size: 16px;
+  }
   .section {
     margin-right: -10px;
     margin-left: -10px;
