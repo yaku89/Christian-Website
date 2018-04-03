@@ -92,9 +92,10 @@ blockquote {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-image: url('../images/profilbild1.jpg');
-  background-position: 50% 50%;
-  background-size: 130px;
+  background-image: url('../images/2018_1_grey.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  box-shadow: 0 0 33px -1px rgba(0, 0, 0, .25);
 }
 
 .content-block {
@@ -443,11 +444,16 @@ blockquote {
 .button:hover {
   background-image: -webkit-linear-gradient(322deg, #01547e, #136d7e 35%, #3aa17e);
   background-image: linear-gradient(128deg, #01547e, #136d7e 35%, #3aa17e);
+  color: #fff;
 }
 
 .button.light {
   background-color: #fff;
   color: #333;
+}
+
+.button.light:hover {
+  color: #fff;
 }
 
 .subject-wrapper {
