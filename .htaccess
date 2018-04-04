@@ -5,3 +5,6 @@ RewriteRule ^(.*)$ http://christian-seidel.me/$1 [L,R=301]
 
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
