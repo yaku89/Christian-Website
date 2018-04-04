@@ -1,7 +1,7 @@
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} !^(www\.christian-seidel\.me)?$
-RewriteRule ^(.*)$ http://www.christian-seidel.me/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^(christian-seidel\.me)?$
+RewriteRule ^(.*)$ http://christian-seidel.me/$1 [R=301,L]
 
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
