@@ -1,5 +1,7 @@
-Redirect /resume.html https://christian-seidel.me/index.html
-
 RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.christian-seidel\.me$ [NC]
+RewriteRule ^(.*)$ http://christian-seidel.me/$1 [L,R=301]
+
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
